@@ -12,10 +12,10 @@ for match in matches:
     password = match.group(4)
 
     if len(password) > lower and password[lower] == match.group(3):
-        count = count + 1
+        count += 1
     if len(password) > upper and password[upper] == match.group(3):
-        count = count + 1
+        count += 1
     if count == 1:
-        valid_passwords = valid_passwords + 1
+        valid_passwords += 1
 
 print(str(valid_passwords))
