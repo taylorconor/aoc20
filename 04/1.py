@@ -1,6 +1,6 @@
 import re
 
-with open('4/input.txt') as f:
+with open('04/input.txt') as f:
     lines = f.read().splitlines()
 
 

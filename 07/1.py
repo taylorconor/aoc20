@@ -1,6 +1,6 @@
 import re
 
-with open('7/input.txt') as f:
+with open('07/input.txt') as f:
     data = f.read()
 
 

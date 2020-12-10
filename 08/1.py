@@ -1,6 +1,6 @@
 import re
 
-with open('8/input.txt') as f:
+with open('08/input.txt') as f:
     instructions = [[x, False] for x in f]
 
 regex = r"([a-z]+) ([\+-][0-9]+)"

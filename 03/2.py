@@ -1,4 +1,4 @@
-with open('3/input.txt') as f:
+with open('03/input.txt') as f:
     lines = f.read().splitlines()
 
 

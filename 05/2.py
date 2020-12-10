@@ -1,4 +1,4 @@
-with open('5/input.txt') as f:
+with open('05/input.txt') as f:
     lines = f.read().splitlines()
 
 ids = set()

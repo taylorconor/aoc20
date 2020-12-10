@@ -1,7 +1,7 @@
 import re
 
 regex = r"([0-9]+)-([0-9]+)\ ([a-z]): ([a-z]*)"
-with open('2/input.txt') as f:
+with open('02/input.txt') as f:
     matches = re.finditer(regex, f.read(), re.MULTILINE)
 
 valid_passwords = 0

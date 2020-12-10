@@ -1,4 +1,4 @@
-with open('9/input.txt') as f:
+with open('09/input.txt') as f:
     lines = [int(x) for x in f]
 
 target = 1124361034
